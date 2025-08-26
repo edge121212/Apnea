@@ -1,0 +1,20 @@
+{
+  "model_config": {
+    "architecture": "HybridOSA_Model (MPCA + Transformer)",
+    "input_channels": 4,
+    "output_length": 1024,
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 3
+  },
+  "training_config": {
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "num_epochs": 30,
+    "focal_gamma": 2
+  },
+  "final_train_loss": 0.007115000369075071,
+  "final_val_loss": 0.4567600536885721,
+  "best_val_loss": 0.09133392776535867,
+  "timestamp": "2025-08-26T14:08:13.150903"
+}
